@@ -179,7 +179,7 @@ The comparison highlights the out-of-fold R² performance of OLS, baseline Gradi
 The backtest compares subsequent 6-month market value outcomes across OLS valuation-gap quintiles. The strongest differentiation appears between the most undervalued and most overvalued groups.
 
 
-Limitations
+##Limitations
 
 The project has several important limitations:
 
@@ -191,7 +191,7 @@ Exponentiating predictions from log-scale regression can generate large model-im
 The backtest covers a relatively short six-month horizon.
 Historical valuation updates are not observed on exactly the same date for every player.
 Hyperparameter tuning of Gradient Boosting was conducted using cross-validation on the available modelling sample rather than a fully nested cross-validation framework.
-Conclusion
+##Conclusion
 
 The project demonstrates that publicly available football performance data can provide a useful signal for identifying players whose market valuation differs from what would be expected based on their statistical profile.
 
