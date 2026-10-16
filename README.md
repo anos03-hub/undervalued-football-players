@@ -1,4 +1,13 @@
 # Undervalued Football Players
+## Summary
+
+This project builds position-specific football player valuation models using FBref and Transfermarkt data to identify potentially undervalued players.
+
+Key results:
+- OLS models achieved approximately 0.71–0.73 out-of-fold R² across position groups
+- Valuation gaps showed a statistically significant relationship with subsequent 6-month market value changes
+- The strongest signal appeared when comparing the most undervalued and most overvalued player groups
+- Final outputs include scouting shortlists by position and model-implied vs observed valuations
 
 ## Project Overview
 
