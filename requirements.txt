@@ -1,0 +1,6 @@
+pandas
+numpy
+rapidfuzz
+statsmodels
+scikit-learn
+scipy
