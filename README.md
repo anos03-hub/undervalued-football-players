@@ -201,6 +201,20 @@ Final CSV outputs are stored in:
 
 `data/processed/`
 
+## How to Run
+
+1. Clone the repository
+2. Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+
+python src/01_data_preparation.py
+python src/02_position_models.py
+python src/03_backtesting.py
+python src/04_feature_selection_experiments.py
+python src/05_results_and_scouting.py
+
 ## Project Structure
 
 ```text
