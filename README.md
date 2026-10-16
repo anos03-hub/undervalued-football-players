@@ -83,6 +83,15 @@ Gradient Boosting models are also trained as a benchmark, including a tuned vers
 
 Model performance is evaluated using 5-fold cross-validation and out-of-fold predictions.
 
+## Methodological Choices
+
+- Separate models were built for defenders, midfielders and forwards to reflect different performance profiles.
+- Out-of-fold predictions were used to reduce optimistic bias in model-implied valuations.
+- OLS was retained as the primary model because it combined strong validation performance with interpretability.
+- Gradient Boosting was used as a non-linear benchmark.
+- Backtesting was used to test whether the valuation gap contained forward-looking information.
+
+
 ### Model Performance
 
 | Position | OLS R² | OLS MAE (€m) | Gradient Boosting R² | Tuned GB R² |
