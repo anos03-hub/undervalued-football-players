@@ -4,3 +4,6 @@ rapidfuzz
 statsmodels
 scikit-learn
 scipy
+pyarrow
+matplotlib
+seaborn
