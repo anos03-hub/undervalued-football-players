@@ -9,6 +9,10 @@ Key results:
 - The strongest signal appeared when comparing the most undervalued and most overvalued player groups
 - Final outputs include scouting shortlists by position and model-implied vs observed valuations
 
+## Tech Stack
+
+Python · pandas · NumPy · scikit-learn · statsmodels · SciPy · RapidFuzz
+
 ## Project Overview
 
 This project investigates whether publicly available football performance data can be used to identify players whose market valuation appears low relative to their statistical profile.
